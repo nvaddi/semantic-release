@@ -1,11 +1,6 @@
 name: Release
 "on":
-  push:
-    branches:
-      - master
-      - next
-      - beta
-      - "*.x"
+  workflow_dispatch:
 permissions:
   contents: read # for checkout
 jobs:
